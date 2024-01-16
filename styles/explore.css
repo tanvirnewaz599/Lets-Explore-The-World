@@ -1,6 +1,6 @@
   @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;800&display=swap');
 
-      {
+ *{
       font-family: 'Mulish', sans-serif;
   }
 
@@ -94,7 +94,7 @@
       font-size: 16px;
       ;
       font-weight: 400;
-      max-width: width: 42.25rem;
+      max-width:42.25rem;
 
   }
 
