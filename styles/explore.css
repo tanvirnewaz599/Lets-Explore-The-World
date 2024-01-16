@@ -74,10 +74,12 @@
       text-align: center;
   }
 
-  .contentb1 {}
+  .contentb1 {
+      padding-top: 80px;
+  }
 
   .bt {
-      padding-top: 106px;
+
       color: #FFF;
       font-family: Mulish;
       font-size: 4rem;
@@ -510,7 +512,6 @@
   .last-t {
       color: #131318;
       padding-left: 10px;
-      font-family: Mulish;
       font-size: 32px;
       font-style: normal;
       font-weight: 800;
@@ -590,22 +591,38 @@
 
       .banner1 {
           width: 335px;
+          height: 483px;
+      }
+
+      .contentb1 {
+          padding-top: 0px;
+
       }
 
       .bt {
-
+          padding-top: 32px;
           font-size: 22px;
           font-weight: 800;
       }
 
       .find {
 
-          text-align: center;
+          /* text-align: center;
           font-size: 20px;
           font-weight: 800;
           flex-direction: column;
-          gap: 24px;
+          gap: 24px; */
+          padding-top: 0;
+          width: 200px;
+          padding: 5px;
+          flex-direction: column;
+          justify-content: center;
+          align-items: flex-start;
+          gap: 16px;
+      }
 
+      .for-p {
+          margin-left: 10px;
       }
 
       .navli {
@@ -683,10 +700,11 @@
       }
 
       /* sec 3 */
-      .sec3{
-        margin-top: 24px;
-        margin-bottom: 0px;
+      .sec3 {
+          margin-top: 24px;
+          margin-bottom: 0px;
       }
+
       .div2-container {
           flex-direction: column;
           gap: 24px;
@@ -725,8 +743,8 @@
 
       /* sec 4 */
       .sec4 {
-        margin-top: 24px;
-        margin-bottom: 0px;
+          margin-top: 24px;
+          margin-bottom: 0px;
           flex-direction: column;
           gap: 24px;
       }
@@ -755,8 +773,8 @@
       }
 
       form {
-        margin-top: 10px;
-        margin-bottom: 0px;
+          margin-top: 10px;
+          margin-bottom: 0px;
           padding-left: 23px;
       }
 
@@ -804,50 +822,59 @@
           font-style: normal;
           font-weight: 800;
       }
+
       /* footer */
-      footer{
-        margin-top: 16px;
-        width: 375px;
-height: 309px;
-flex-shrink: 0;
+      footer {
+          margin-top: 16px;
+          width: 375px;
+          height: 309px;
+          flex-shrink: 0;
       }
-      .footer-title-container{
-        padding-top: 33.2px;
+
+      .footer-title-container {
+          padding-top: 33.2px;
       }
-      .title-logo1{
-        padding-top: 2px;
-        width: 28.724px;
-height: 33.516px;
+
+      .title-logo1 {
+          padding-top: 2px;
+          width: 28.724px;
+          height: 33.516px;
       }
-      .last-t{
-        margin-top: 5px;
-        font-size: 21.543px;
-font-weight: 800;
+
+      .last-t {
+          margin-top: 5px;
+          font-size: 21.543px;
+          font-weight: 800;
       }
-      .last-des{
-        font-size: 14px;
-font-style: normal;
-font-weight: 400;
-max-width: 287px;
-padding-left: 44px;
+
+      .last-des {
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 400;
+          max-width: 287px;
+          padding-left: 44px;
       }
-      .social-logo{
-        margin-top: 16px;
-        width: 174.322px;
-height: 24px;
-margin-left: 100px;
+
+      .social-logo {
+          margin-top: 16px;
+          width: 174.322px;
+          height: 24px;
+          margin-left: 100px;
       }
-      .hr2{
-        display: none;
+
+      .hr2 {
+          display: none;
       }
-      .hr3{
-        margin-top: 24px;
-        width: 335px;
-height: 1px;
+
+      .hr3 {
+          margin-top: 24px;
+          width: 335px;
+          height: 1px;
       }
-      .reserved{
-        margin-top: 24px;
-        font-size: 14px;
-font-weight: 300;
+
+      .reserved {
+          margin-top: 24px;
+          font-size: 14px;
+          font-weight: 300;
       }
-    }
+  }
