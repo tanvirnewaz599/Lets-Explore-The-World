@@ -8,7 +8,8 @@
 
 
 
-  main,header {
+  main,
+  header {
       margin: 0px 135px 0px;
   }
 
@@ -33,7 +34,7 @@
   }
 
   nav {
-    margin-top: 53px;
+      margin-top: 53px;
       display: flex;
       justify-content: space-between;
       margin-bottom: 0;
@@ -67,7 +68,8 @@
       margin-top: 0px;
       border-radius: 16px;
       background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(../Images/Group\ 13\ \(1\)\ \(1\).png);
-      width: 1170px;
+      /* width: 1170px; */
+      width: 73rem;
       min-height: 500px;
       text-align: center;
   }
@@ -133,387 +135,440 @@
   }
 
   /* main */
-  .sec1{
-    margin-top: 100px;
-    width: 1170px;
-    min-height:  550px;
-background: #FFF;
-display: flex;
+  .sec1 {
+      margin-top: 100px;
+      width: 1170px;
+      min-height: 550px;
+      background: #FFF;
+      display: flex;
 
   }
-  .textsec{
-    max-width:  525px;
-    margin-right: 270px;
+
+  .textsec {
+      max-width: 525px;
+      margin-right: 270px;
   }
 
- .sec1t{
-    margin-top: 0;
-    color: #131318;
-font-family: Mulish;
-font-size: 40px;
-margin-bottom: 0;
- } 
- .sec1des{
-    color: rgba(19, 19, 24, 0.70);
-font-family: Mulish;
-font-size: 16px;
-font-weight: 400;
-line-height: 26px; /* 162.5% */
-
- }
- .btn2{
-    margin-top: 46px;
-    width: 174px;
-height: 52px;
-border-radius: 8px;
-background: #FF5400;
-color: #FFF;
-text-align: center;
-font-size: 20px;
-border: 0;
- }
-  .sec1img{
-    width: 540px;
-   height: 550px;
+  .sec1t {
+      margin-top: 0;
+      color: #131318;
+      font-family: Mulish;
+      font-size: 40px;
+      margin-bottom: 0;
   }
 
-  .sec2{
-    margin-top: 100px;
-    width: 1170px;
-    min-height:  550px;
-background: #FFF;
-  }
-  .sec2text{
-    text-align: center;
-  }
-  .ma-in{
-    margin-top: 48px;
-    display: flex;
-    gap: 24px;
+  .sec1des {
+      color: rgba(19, 19, 24, 0.70);
+      font-family: Mulish;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 26px;
+      /* 162.5% */
 
   }
-  .hh{
-    padding-top: 120px;
-    color: #FFF;
-text-align: center;
-font-family: Mulish;
-font-size: 28px;
-font-weight: 800;
+
+  .btn2 {
+      margin-top: 46px;
+      width: 174px;
+      height: 52px;
+      border-radius: 8px;
+      background: #FF5400;
+      color: #FFF;
+      text-align: center;
+      font-size: 20px;
+      border: 0;
   }
-  .Maldives{
-    width: 573px;
-height: 300px;
-border-radius: 16px;
-background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url("../Images/Rectangle\ 5.png"), lightgray 50% / cover no-repeat;
+
+  .sec1img {
+      width: 540px;
+      height: 550px;
   }
-  .Indonesia{
-    width: 573px;
-height: 300px;
-border-radius: 16px;
-background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url("../Images/Rectangle\ 8.png"), lightgray 50% / cover no-repeat;
+
+  .sec2 {
+      margin-top: 100px;
+      width: 1170px;
+      min-height: 550px;
+      background: #FFF;
   }
-.sri-kas{
-    margin-top: 24px;
-    display: flex;
-    gap: 24px;
-}
-.Srilanka{
-    width: 374px;
-height: 286px;
-border-radius: 16px;
-background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url("../Images/Rectangle\ 6.png"), lightgray 50% / cover no-repeat;
-}
-.America{
-    width: 474px;
-height: 286px;
-border-radius: 16px;
-background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url("../Images/Rectangle\ 7.png"), lightgray 50% / cover no-repeat;
-}
-.Kashmir{
-    width: 274px;
-height: 286px;
-border-radius: 16px;
-background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url("../Images/Rectangle\ 9.png"), lightgray 50% / cover no-repeat;
-}
-.bangladesh{
-    margin-top: 24px;
-    display: flex;
-    gap: 24px;
-}
-.bd{
-    width: 473px;
-height: 300px;
-border-radius: 16px;
-background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url("../Images/Rectangle\ 11.png"), lightgray 50% / cover no-repeat;
-}
-.bandarban{
-    width: 673px;
-height: 300px;
-border-radius: 16px;
-background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url("../Images/Rectangle\ 10.png"), lightgray 50% / cover no-repeat;
-}
-.sec2des{
-    margin-top: 24px;
-color: rgba(19, 19, 24, 0.70);
-font-size: 16px;
-font-weight: 400;
-line-height: 26px; /* 162.5% */
 
-}
+  .sec2text {
+      text-align: center;
+  }
 
-.sec3{
-    margin-top: 100px;
-    width: 1170px;
-min-height:  700px;
-background: #FFF;
+  .ma-in {
+      margin-top: 48px;
+      display: flex;
+      gap: 24px;
 
-}
-.sec3text{
-    text-align: center;
-    margin-bottom: 0;
-}
-.div2-container{  
-    margin-top: 24px;
-    display: flex;
-    gap: 24px;
-}
-.sec3-image{
-    padding-top: 32px;
-    padding-left: 54px;
-    width: 64px;
-height: 64px;
-}
-.sec3-title{
-    padding-left: 54px;
-    color: #131318;
-font-size: 24px;
-font-weight: 800;
-}
-.sec3-des{
-    padding-left: 54px;
-    color: #5A5A5D;
-font-size: 16px;
-font-weight: 400;
-line-height: 26px; /* 162.5% */
-max-width: 486px;
+  }
 
-}
-.hotel{
-    width: 573px;
-height: 284px;
-border-radius: 16px;
-border: 1px solid rgba(251, 181, 99, 0.20);
-background: rgba(251, 181, 99, 0.05);
-}
-.service{
-    width: 573px;
-height: 284px;
-border-radius: 16px;
-border: 1px solid rgba(41, 206, 246, 0.20);
-background: rgba(41, 206, 246, 0.05);
-}
+  .hh {
+      padding-top: 120px;
+      color: #FFF;
+      text-align: center;
+      font-family: Mulish;
+      font-size: 28px;
+      font-weight: 800;
+  }
 
-.price{
-    margin-top: 24px;
-    width: 573px;
-height: 284px;
-border-radius: 16px;
-border: 1px solid rgba(233, 68, 68, 0.20);
-background: rgba(233, 68, 68, 0.05);
-margin-left: 300px;
-}
+  .Maldives {
+      width: 573px;
+      height: 300px;
+      border-radius: 16px;
+      background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url("../Images/Rectangle\ 5.png"), lightgray 50% / cover no-repeat;
+  }
 
-.sec4{
-    display: flex;
-    gap: 24px;
-    margin-top: 100px;
-    width: 1170px;
-    min-height:  422px;
-background: #FFF;
-}
-.collum1{
-    width: 474px;
-height: 422px;
-border-radius: 16px;
-border: 1px solid #FF5400;
-}
-.sec4-title{
-    padding-left: 40px;
-    color: #131318;
-font-size: 24px;
-font-weight: 800;
-margin-bottom: 0;
-}
-.sec4-des{
-    padding-left: 40px;
-    margin-top: 10px;
-    color: #5A5A5D;
-font-size: 16px;
-font-weight: 400;
-line-height: 26px; /* 162.5% */
-max-width: 350px;
-margin-bottom: 0;
-}
-hr{
+  .Indonesia {
+      width: 573px;
+      height: 300px;
+      border-radius: 16px;
+      background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url("../Images/Rectangle\ 8.png"), lightgray 50% / cover no-repeat;
+  }
+
+  .sri-kas {
       margin-top: 24px;
-    width: 393px;
-height: 1px;
-background: rgba(19, 19, 24, 0.10);
-margin-bottom: 0;
-}
-form{
-    margin-top: 24px;
-    padding-left: 40px;
-}
-form> input{
-    margin-top: 16px;
-    display: block;
-    
-}
-.sec4-btn{
-    margin-top: 24px;
-}
-.enter-name{
-    width: 393px;
-height: 52px;
-flex-shrink: 0;
-border-radius: 8px;
-background: rgba(19, 19, 24, 0.05);
-border: 0;
-color: rgba(19, 19, 24, 0.30);
-font-size: 16px;
-font-weight: 400;
-padding-left: 20px;
-}
-.enter-email{
-    width: 393px;
-    height: 52px;
-    border-radius: 8px;
-    background: rgba(19, 19, 24, 0.05);
-    border: 0;
-    color: rgba(19, 19, 24, 0.30);
-font-family: Mulish;
-font-size: 16px;
-font-weight: 400;
-padding-left: 20px;
-}
-.sec4-btn{
-    width: 393px;
-height: 52px;
-flex-shrink: 0;
-border-radius: 8px;
-background: #FF5400;
-color: #FFF;
-text-align: center;
-font-size: 20px;
-font-weight: 800;
-border: 0;
-}
-.collum2{
-    display: flex;
-    justify-content: end;
-    align-items: end;
-    width: 672px;
-height: 422px;
-border-radius: 16px;
-background: url("../Images/Rectangle\ 8\ \(1\).png"), lightgray 50% / cover no-repeat;
-}
-.col2-titlee{
-    color: #FFF;
-text-align: center;
-font-size: 24px;
-font-weight: 400;
-margin-bottom: 0;
-}
-.col2-70{
-    margin-top:10px;
-    color: #FFF;
-    text-align: center;
-font-size: 32px;
-font-weight: 800;
-margin-bottom:  20px;
-}
+      display: flex;
+      gap: 24px;
+  }
 
-.discount{
-    width: 324px;
-height: 120px;
-justify-content: end;
-transform: translate(-5px, -47px) rotate(-19.628deg);
-border-radius: 16px;
-background: #FF5400;
-/* margin-left: 348px; */
+  .Srilanka {
+      width: 374px;
+      height: 286px;
+      border-radius: 16px;
+      background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url("../Images/Rectangle\ 6.png"), lightgray 50% / cover no-repeat;
+  }
 
-}
-footer{
-    width: 1440px;
-height: 502px;
-flex-shrink: 0;
-background: rgba(19, 19, 24, 0.05);
-}
-.last{
-    margin-top: 100px;
-}
-.title-logo1{
-    padding-top: 30px;
-    width: 40px;
-height: 46.673px;
-flex-shrink: 0;
-}
-.last-t{
-    color:  #131318;
-    padding-left: 10px;
-font-family: Mulish;
-font-size: 32px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
+  .America {
+      width: 474px;
+      height: 286px;
+      border-radius: 16px;
+      background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url("../Images/Rectangle\ 7.png"), lightgray 50% / cover no-repeat;
+  }
 
-}
+  .Kashmir {
+      width: 274px;
+      height: 286px;
+      border-radius: 16px;
+      background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url("../Images/Rectangle\ 9.png"), lightgray 50% / cover no-repeat;
+  }
 
-.last-des{
-    margin-top: 5px;
-    color: #5A5A5D;
-text-align: center;
-font-family: Mulish;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 26px; /* 162.5% */
-}
-.footer-title-container{
-   padding-top: 110px;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 0;
-}
-.hr2{
-    width: 1320px;
-height: 1px;
-background: rgba(255, 255, 255, 0.15);
-}
-.social-logo{
-    width: 174.322px;
-height: 24px;
-margin-left: 600px;
-}
-.social{
-    margin-bottom:0;
-}
-.hr3{
-    margin-top: 50px;
-    width: 872px;
-height: 1px;
-background: rgba(19, 19, 24, 0.10);
-margin-bottom: 0;
-}
-.reserved{
-    margin-top: 50px;
-    color: #131318;
-    text-align: center;
-font-family: Inter;
-font-size: 16px;
-font-weight: 300;
-}
+  .bangladesh {
+      margin-top: 24px;
+      display: flex;
+      gap: 24px;
+  }
+
+  .bd {
+      width: 473px;
+      height: 300px;
+      border-radius: 16px;
+      background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url("../Images/Rectangle\ 11.png"), lightgray 50% / cover no-repeat;
+  }
+
+  .bandarban {
+      width: 673px;
+      height: 300px;
+      border-radius: 16px;
+      background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url("../Images/Rectangle\ 10.png"), lightgray 50% / cover no-repeat;
+  }
+
+  .sec2des {
+      margin-top: 24px;
+      color: rgba(19, 19, 24, 0.70);
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 26px;
+      /* 162.5% */
+
+  }
+
+  .sec3 {
+      margin-top: 100px;
+      width: 1170px;
+      min-height: 700px;
+      background: #FFF;
+
+  }
+
+  .sec3text {
+      text-align: center;
+      margin-bottom: 0;
+  }
+
+  .div2-container {
+      margin-top: 24px;
+      display: flex;
+      gap: 24px;
+  }
+
+  .sec3-image {
+      padding-top: 32px;
+      padding-left: 54px;
+      width: 64px;
+      height: 64px;
+  }
+
+  .sec3-title {
+      padding-left: 54px;
+      color: #131318;
+      font-size: 24px;
+      font-weight: 800;
+  }
+
+  .sec3-des {
+      padding-left: 54px;
+      color: #5A5A5D;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 26px;
+      /* 162.5% */
+      max-width: 486px;
+
+  }
+
+  .hotel {
+      width: 573px;
+      height: 284px;
+      border-radius: 16px;
+      border: 1px solid rgba(251, 181, 99, 0.20);
+      background: rgba(251, 181, 99, 0.05);
+  }
+
+  .service {
+      width: 573px;
+      height: 284px;
+      border-radius: 16px;
+      border: 1px solid rgba(41, 206, 246, 0.20);
+      background: rgba(41, 206, 246, 0.05);
+  }
+
+  .price {
+      margin-top: 24px;
+      width: 573px;
+      height: 284px;
+      border-radius: 16px;
+      border: 1px solid rgba(233, 68, 68, 0.20);
+      background: rgba(233, 68, 68, 0.05);
+      margin-left: 300px;
+  }
+
+  .sec4 {
+      display: flex;
+      gap: 24px;
+      margin-top: 100px;
+      width: 1170px;
+      min-height: 422px;
+      background: #FFF;
+  }
+
+  .collum1 {
+      width: 474px;
+      height: 422px;
+      border-radius: 16px;
+      border: 1px solid #FF5400;
+  }
+
+  .sec4-title {
+      padding-left: 40px;
+      color: #131318;
+      font-size: 24px;
+      font-weight: 800;
+      margin-bottom: 0;
+  }
+
+  .sec4-des {
+      padding-left: 40px;
+      margin-top: 10px;
+      color: #5A5A5D;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 26px;
+      /* 162.5% */
+      max-width: 350px;
+      margin-bottom: 0;
+  }
+
+  hr {
+      margin-top: 24px;
+      width: 393px;
+      height: 1px;
+      background: rgba(19, 19, 24, 0.10);
+      margin-bottom: 0;
+  }
+
+  form {
+      margin-top: 24px;
+      padding-left: 40px;
+  }
+
+  form>input {
+      margin-top: 16px;
+      display: block;
+
+  }
+
+  .sec4-btn {
+      margin-top: 24px;
+  }
+
+  .enter-name {
+      width: 393px;
+      height: 52px;
+      flex-shrink: 0;
+      border-radius: 8px;
+      background: rgba(19, 19, 24, 0.05);
+      border: 0;
+      color: rgba(19, 19, 24, 0.30);
+      font-size: 16px;
+      font-weight: 400;
+      padding-left: 20px;
+  }
+
+  .enter-email {
+      width: 393px;
+      height: 52px;
+      border-radius: 8px;
+      background: rgba(19, 19, 24, 0.05);
+      border: 0;
+      color: rgba(19, 19, 24, 0.30);
+      font-family: Mulish;
+      font-size: 16px;
+      font-weight: 400;
+      padding-left: 20px;
+  }
+
+  .sec4-btn {
+      width: 393px;
+      height: 52px;
+      flex-shrink: 0;
+      border-radius: 8px;
+      background: #FF5400;
+      color: #FFF;
+      text-align: center;
+      font-size: 20px;
+      font-weight: 800;
+      border: 0;
+  }
+
+  .collum2 {
+      display: flex;
+      justify-content: end;
+      align-items: end;
+      width: 672px;
+      height: 422px;
+      border-radius: 16px;
+      background: url("../Images/Rectangle\ 8\ \(1\).png"), lightgray 50% / cover no-repeat;
+  }
+
+  .col2-titlee {
+      color: #FFF;
+      text-align: center;
+      font-size: 24px;
+      font-weight: 400;
+      margin-bottom: 0;
+  }
+
+  .col2-70 {
+      margin-top: 10px;
+      color: #FFF;
+      text-align: center;
+      font-size: 32px;
+      font-weight: 800;
+      margin-bottom: 20px;
+  }
+
+  .discount {
+      width: 324px;
+      height: 120px;
+      justify-content: end;
+      transform: translate(-5px, -47px) rotate(-19.628deg);
+      border-radius: 16px;
+      background: #FF5400;
+
+      /* margin-left: 348px; */
+
+  }
+
+  footer {
+      width: 1440px;
+      height: 502px;
+      flex-shrink: 0;
+      background: rgba(19, 19, 24, 0.05);
+  }
+
+  .last {
+      margin-top: 100px;
+  }
+
+  .title-logo1 {
+      padding-top: 30px;
+      width: 40px;
+      height: 46.673px;
+      flex-shrink: 0;
+  }
+
+  .last-t {
+      color: #131318;
+      padding-left: 10px;
+      font-family: Mulish;
+      font-size: 32px;
+      font-style: normal;
+      font-weight: 800;
+      line-height: normal;
+
+  }
+
+  .last-des {
+      margin-top: 5px;
+      color: #5A5A5D;
+      text-align: center;
+      font-family: Mulish;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 26px;
+      /* 162.5% */
+  }
+
+  .footer-title-container {
+      padding-top: 110px;
+      display: flex;
+      justify-content: center;
+      margin-bottom: 0;
+  }
+
+  .hr2 {
+      width: 1320px;
+      height: 1px;
+      background: rgba(255, 255, 255, 0.15);
+  }
+
+  .social-logo {
+      width: 174.322px;
+      height: 24px;
+      margin-left: 600px;
+  }
+
+  .social {
+      margin-bottom: 0;
+  }
+
+  .hr3 {
+      margin-top: 50px;
+      width: 872px;
+      height: 1px;
+      background: rgba(19, 19, 24, 0.10);
+      margin-bottom: 0;
+  }
+
+  .reserved {
+      margin-top: 50px;
+      color: #131318;
+      text-align: center;
+      font-family: Inter;
+      font-size: 16px;
+      font-weight: 300;
+  }
 
 
 
@@ -521,7 +576,9 @@ font-weight: 300;
 
 
   @media screen and (max-width:600px) {
-      header {
+
+      header,
+      main {
           margin: 0;
           padding: 20px;
           width: 330px;
@@ -542,14 +599,12 @@ font-weight: 300;
       }
 
       .find {
-          /* display: flex;
-        width: 287px;
-        padding: 16px;
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 16px;
-        max-width: 250px; */
+
+          text-align: center;
+          font-size: 20px;
+          font-weight: 800;
           flex-direction: column;
+          gap: 24px;
 
       }
 
@@ -559,6 +614,240 @@ font-weight: 300;
 
       .des {
           max-width: 280px;
+          padding-left: 20px;
       }
 
-  }
+      /* main */
+
+      /* section 1 */
+      .sec1 {
+          width: 500px;
+          flex-direction: column;
+          gap: 24px;
+      }
+
+      .sec1t {
+
+          font-size: 20px;
+          font-weight: 800;
+      }
+
+      .sec1img {
+
+          width: 335px;
+          height: 342px;
+
+      }
+
+      /* section 2 */
+
+      .sec2 {
+          padding-top: 250px;
+          margin-top: 24px;
+          margin-bottom: 0px;
+      }
+
+      .sec2text {
+          margin-left: 0;
+      }
+
+      .sec1t {
+          text-align: start;
+          font-size: 20px;
+          font-weight: 800;
+      }
+
+      .sec2des {
+          text-align: start;
+          font-size: 14px;
+          font-weight: 400;
+          max-width: 309px;
+      }
+
+      .ma-in,
+      .sri-kas,
+      .bangladesh {
+          flex-direction: column;
+          gap: 24px;
+      }
+
+      .Maldives,
+      .Indonesia,
+      .Srilanka,
+      .America,
+      .Kashmir,
+      .bd,
+      .bandarban {
+          width: 335px;
+          height: 176px;
+      }
+
+      /* sec 3 */
+      .sec3{
+        margin-top: 24px;
+        margin-bottom: 0px;
+      }
+      .div2-container {
+          flex-direction: column;
+          gap: 24px;
+      }
+
+      .hotel,
+      .service,
+      .price {
+          width: 335px;
+          height: 289px;
+          flex-shrink: 0;
+      }
+
+      .price {
+          margin-left: 0;
+      }
+
+      .sec3-image {
+          padding-left: 32px;
+      }
+
+      .sec3-title {
+          font-size: 20px;
+          font-weight: 800;
+          padding-left: 32px;
+      }
+
+      .sec3-des {
+
+          font-size: 14px;
+          font-weight: 400;
+          line-height: 24px;
+          max-width: 271px;
+          padding-left: 32px;
+      }
+
+      /* sec 4 */
+      .sec4 {
+        margin-top: 24px;
+        margin-bottom: 0px;
+          flex-direction: column;
+          gap: 24px;
+      }
+
+      .collum1 {
+          width: 335px;
+          height: 380px;
+      }
+
+      .sec4-title {
+          font-size: 20px;
+          font-weight: 800;
+          padding-left: 23px;
+      }
+
+      .sec4-des {
+          font-size: 14px;
+          font-weight: 400;
+          max-width: 270px;
+          padding-left: 23px;
+      }
+
+      hr {
+          width: 288px;
+          height: 1px;
+      }
+
+      form {
+        margin-top: 10px;
+        margin-bottom: 0px;
+          padding-left: 23px;
+      }
+
+      .enter-name {
+          width: 288px;
+          height: 52px;
+          flex-shrink: 0;
+
+      }
+
+      .enter-email {
+          width: 288px;
+          height: 52px;
+          flex-shrink: 0;
+
+      }
+
+      .sec4-btn {
+          width: 288px;
+          height: 52px;
+          flex-shrink: 0;
+          padding-left: 23px;
+      }
+
+      .collum2 {
+          width: 335px;
+          height: 300px;
+          flex-shrink: 0;
+      }
+
+      .discount {
+          width: 218px;
+          height: 82px;
+          transform: translate(-3px, -30px) rotate(-19.628deg);
+      }
+
+      .col2-titlee {
+          font-size: 15.854px;
+          font-style: normal;
+          font-weight: 400;
+      }
+
+      .col2-70 {
+          font-size: 21.138px;
+          font-style: normal;
+          font-weight: 800;
+      }
+      /* footer */
+      footer{
+        margin-top: 16px;
+        width: 375px;
+height: 309px;
+flex-shrink: 0;
+      }
+      .footer-title-container{
+        padding-top: 33.2px;
+      }
+      .title-logo1{
+        padding-top: 2px;
+        width: 28.724px;
+height: 33.516px;
+      }
+      .last-t{
+        margin-top: 5px;
+        font-size: 21.543px;
+font-weight: 800;
+      }
+      .last-des{
+        font-size: 14px;
+font-style: normal;
+font-weight: 400;
+max-width: 287px;
+padding-left: 44px;
+      }
+      .social-logo{
+        margin-top: 16px;
+        width: 174.322px;
+height: 24px;
+margin-left: 100px;
+      }
+      .hr2{
+        display: none;
+      }
+      .hr3{
+        margin-top: 24px;
+        width: 335px;
+height: 1px;
+      }
+      .reserved{
+        margin-top: 24px;
+        font-size: 14px;
+font-weight: 300;
+      }
+    }
